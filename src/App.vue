@@ -90,7 +90,7 @@ const startQuiz = async(topic) => {
   required: ["response_code", "results"],
 }; 
 
-  const ai = new GoogleGenAI({ apiKey: 'AIzaSyBTjoP1APSv3qE6ZKrM4_6iv4XZfuWej60' });
+  const ai = new GoogleGenAI({ apiKey: '...' });  // Replace '...' with your actual API key
 
   try {
     const response = await ai.models.generateContent({
