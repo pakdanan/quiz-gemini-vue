@@ -1,5 +1,5 @@
 <template>
-    <section >
+    <section>
         <div class="loader"></div>
-     </section>
+    </section>
 </template>
